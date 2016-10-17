@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_JniIoJPGEealkvXABtimng" name="NewModel">
+  <packagedElement xmi:type="uml:Package" xmi:id="_ieroYJPGEealkvXABtimng" name="Party"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_wgum0JPGEealkvXABtimng" name="Event"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_0nY6MJPGEealkvXABtimng" name="Condition"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_5u3xYJPGEealkvXABtimng" name="Location"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_8CvRcJPGEealkvXABtimng" name="Account"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="__2PYQJPGEealkvXABtimng" name="Contract"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_B8t8kJPHEealkvXABtimng" name="Item"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_D_9msJPHEealkvXABtimng" name="Service"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_S9A_YJPIEealkvXABtimng" name="Type"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_iqI_kJPIEealkvXABtimng" client="_8CvRcJPGEealkvXABtimng" supplier="_ieroYJPGEealkvXABtimng"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_rCyskJPIEealkvXABtimng" client="_wgum0JPGEealkvXABtimng" supplier="_ieroYJPGEealkvXABtimng"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_3zmFkJPIEealkvXABtimng" client="_5u3xYJPGEealkvXABtimng" supplier="_ieroYJPGEealkvXABtimng"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_DcgpcJPJEealkvXABtimng" client="_wgum0JPGEealkvXABtimng" supplier="__2PYQJPGEealkvXABtimng"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_EaJ9cJPJEealkvXABtimng" client="_wgum0JPGEealkvXABtimng" supplier="_B8t8kJPHEealkvXABtimng"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Fe8bQJPJEealkvXABtimng" client="_wgum0JPGEealkvXABtimng" supplier="_D_9msJPHEealkvXABtimng"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_IBc0QJPJEealkvXABtimng" client="__2PYQJPGEealkvXABtimng" supplier="_0nY6MJPGEealkvXABtimng"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_OXkBwJPJEealkvXABtimng" client="_wgum0JPGEealkvXABtimng" supplier="_8CvRcJPGEealkvXABtimng"/>
+</uml:Model>
